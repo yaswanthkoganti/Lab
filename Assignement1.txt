@@ -1,0 +1,23 @@
+1. Create a HTML "MobileInput.html" with 3 text fields such as Mobile Name, Mobile Brand, Price.
+
+2. Create a Entity Class named "Mobile" with above 3 fields and inject getter and setter methods.
+
+3. Create a Servlet class named "MobileServlet" to fetch all this 3 parameters using request.getParameter() method and store this parameter in some meaningful variables like mobileName, mobileBrand, price.
+
+4. Create Object for entity clas and set these values using setter method.
+   Ex: mobile.setMobileName(mobileName); etc.
+
+5. Store this mobile object in request object using setAttribute() method.
+
+6. Set some more dummy attributes like Mobile Company name and mobile company e-mail Id using setAttribute() method.
+
+7. Create an Object for RequestDispatcher and forward the request to some other servlet named as "DisplayMobileServlet" class.
+
+8. Retrieve the attributes you have set in request object using getAttribute() method.
+
+9. Display all details of mobile and display those dummy attribute values of Mobile Company and Mobile e-mail id.
+
+10. If no data's found throw User defined Exception.(Refer PresentationServlet.java in InterServletCommunication Project)
+
+11.
+ 
